@@ -14,7 +14,7 @@ function adicionar() {
  quantidade = parseInt(quantidade); // Converte para número
  
  if (isNaN(quantidade) || quantidade <= 0) {
-     alert("insira uma quantidade válida.");
+     alert("Insira uma quantidade válida.");
      return;
  }
 
